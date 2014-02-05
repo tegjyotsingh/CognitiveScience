@@ -1,1 +1,6 @@
+ Rejection Sampling on Bayes Nets. 
+ Two Bayes Nets with slightly differnet structures were taken and 
+ Rejection Sampling was performed on the two nets to analyze the effects
+ of varying the number of samples N and the error of approximation.
+ 
  
