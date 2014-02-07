@@ -40,6 +40,6 @@ end
 theretical_value=0.1304;
 errors= evaluated_probability-theretical_value;
 errors=abs(errors);
-%plot(log10(vals_N),errors), xlabel('log of N values to the base 10'), ylabel('errors(Theoretical value - approximate from Rejection Sampling)'),title('Error values of Rejection Sampling  with change in number of samples');
+plot(log10(vals_N),errors), xlabel('log of N values to the base 10'), ylabel('errors(Theoretical value - approximate from Rejection Sampling)'),title('Error values of Rejection Sampling  with change in number of samples');
 %Output error values:
 vals_N, errors

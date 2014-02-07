@@ -1,1 +1,18 @@
+ Rejection Sampling for approximate Bayesian Inference
+ -----------------------------------------------------
+ 
+ In the folder scripts, there are three matlab files. 
+ The master_Script files are the files which initialize the bayes nets, 
+ conditional probabilities and invokes rejection sampling on the data. 
+ It also plots the output graphs representing errors as a function of the 
+ number of samples taken. The graphs obtained are given in the results folder. 
+ 
+ The two master_script files represent two differnt varaitions to the simple 
+ Bayes nets structure used here. The infernece required is mentioned in the files
+ and the results are plotted. 
+ 
+ The rejectionsampling file has the function which performs the rejections sampling
+ on the  number of samples given by N, the evidence and the Conditional probability values.
+ The Bayes net is also a paramter to the function and it represents the graph as a cell array, 
+ with each index pointing to its parents.
  
