@@ -1,13 +1,12 @@
-<<<<<<< HEAD
  Rejection Sampling for approximate Bayesian Inference
  -----------------------------------------------------
-=======
  Rejection Sampling on Bayes Nets. 
  Two Bayes Nets with slightly differnet structures were taken and 
  Rejection Sampling was performed on the two nets to analyze the effects
  of varying the number of samples N and the error of approximation.
- 
->>>>>>> 8af33426efcdd2d471b3d178ae613b5c257e8038
+ ------------------------------------------------------
+ ------------------------------------------------------
+
  
  In the folder scripts, there are three matlab files. 
  The master_Script files are the files which initialize the bayes nets, 
